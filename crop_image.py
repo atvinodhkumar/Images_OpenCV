@@ -1,10 +1,14 @@
 """
-This script crops images from a folder. The edited image can be viewed during 
+This script crops or copys images from a folder. The edited image can be viewed during 
 the run-time and saved in another folder with the same image name using OpenCV. 
 
 Syntax to crop an image:
     
     image[height_start : height_end, width_start : width_end]
+    
+Syntax to copy an image:
+
+    In the below code, instead of "RGB_image.copy()" use RGB_image.copy()
     
 Dimension of the image used here is 1024 * 500
 """
